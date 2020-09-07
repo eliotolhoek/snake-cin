@@ -49,7 +49,7 @@ public class Board extends JPanel implements ActionListener {
 
     private void loadImages() {
         try {
-            ImageIcon iid = new ImageIcon(ImageIO.read(getClass().getClassLoader().getResourceAsStream("dot.png")));
+            ImageIcon iid = new ImageIcon(ImageIO.read(getClass().getClassLoader().getResourceAsStream("dot_green.png")));
             ball = iid.getImage();
 
             ImageIcon iia = new ImageIcon(ImageIO.read(getClass().getClassLoader().getResourceAsStream("apple.png")));
